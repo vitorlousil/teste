@@ -1,0 +1,28 @@
+{
+    "name": "vlassessoria/teste",
+    "description": "aula docker",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vlassessoria\\Teste\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vitor Louzada da Silva",
+            "email": "vlassessoria@gmail.com"
+        }
+    ],
+    "require": {},
+    "scripts": {
+        "clear":[
+            "rm -f composer.lock",
+            "@composer clear-cache"
+        ],
+        "build-app": [
+            "@composer clear",
+            "@composer install"
+        ]
+    }
+}
