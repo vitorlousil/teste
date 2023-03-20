@@ -1,7 +1,7 @@
 {
     "name": "vlassessoria/teste",
     "description": "aula docker",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
